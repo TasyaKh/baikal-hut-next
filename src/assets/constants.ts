@@ -126,17 +126,17 @@ export const comments = [
 ]
 
 export const images = [
-    {src: "/img/2023/ВнешнийВид/web_20230823_KOZ_1323.jpg", label: "Внешний вид"},
-    {src: "/img/2023/Баня/web_20230824_KOZ_1683-HDR.jpg", label: "Баня"},
-    {src: "/img/2023/Территория/web_20230824_KOZ_1628.jpg", label: "Территория"},
-    {src: "/img/2023/Территория/web_20230824_KOZ_1637.jpg", label: "Территория"},
-    {src: "/img/2023/ВнутриДома/web_20230824_KOZ_1768-HDR.jpg", label: "Кухня"},
-    {src: "/img/2023/ВнутриДома/web_20230824_KOZ_1812-HDR.jpg", label: "Кухня"},
+    {src: "/img/2023/Территория/28.jpg", label: "Территория"},
+    {src: "/img/2023/Баня/4.jpg", label: "Баня"},
+    {src: "/img/2023/Территория/26.jpg", label: "Территория"},
+    {src: "/img/2023/Территория/31.jpg", label: "Территория"},
+    {src: "/img/2023/ВнутриДома/24.jpg", label: "Кухня"},
+    {src: "/img/2023/ВнутриДома/22.jpg", label: "Кухня"},
 ]
 
 export const videos = [
-    {src: "/video/Хижина2023_моб.mp4", img: "/img/2023/Территория/web_20230823_KOZ_1049.jpg"},
-    {src: "/video/B-Nut_web_1.mp4", img: "/img/2023/Территория/web_20230824_KOZ_1637.jpg"},
-    {src: "/video/9convert.com-Хижина-на-Байкале-Место-силы_1080p.mp4", img: "/img/2023/ВнутриДома/30.jpg"},
-    // {src: "/video/Инна31.mp4", img:"/img/2023/Территория/web_20230823_KOZ_1049.jpg"},
+    {src: "/video/Хижина2023_моб.mp4", img: "/img/2023/Территория/25.jpg"},
+    {src: "/video/B-Nut_web_1.mp4", img: "/img/2023/Территория/27.jpg"},
+    {src: "/video/9convert.com-Хижина-на-Байкале-Место-силы_1080p.mp4", img: "/img/2023/ВнутриДома/19.jpg"},
+    // {src: "/video/Инна31.mp4", img:"/img/2023/Территория/25.jpg"},
 ]

@@ -21,7 +21,7 @@ const Nav: FC<NavProps> = () => {
                         <div className={"flex flex-row items-center"}>
                             <img src="/logo.jpg" className="w-100 h-12 mr-2 rounded-3xl"
                                  alt="Logo"/>
-                            <span className={"font-bold hidden md:block  hover:text-main-color text-gray-700"}>Хижина на Байкале</span>
+                            <span className={"font-bold hidden sm:block hover:text-main-color text-gray-700"}>Хижина на Байкале</span>
                     </div>
                 </Link>
             </div>

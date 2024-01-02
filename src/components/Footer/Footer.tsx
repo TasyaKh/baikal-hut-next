@@ -43,15 +43,12 @@ const Footer: FC<FooterProps> = () => {
             </div>
 
             <div className="mx-6 py-10 text-center md:text-left">
-                <div className="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+                <div className="grid-1 grid gap-8 md:grid-cols-2 ">
                     <div className="">
                         <h6
-                            className="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start">
-                            <img src="/logo.jpg" className="w-100 h-12 mr-2 rounded-3xl" alt="Logo"/>
+                            className="mb-4 flex items-center justify-center font-semibold  md:justify-start">
+                            <img src="/logo.jpg" className="w-100 h-12 mr-2 rounded-3xl" alt="Logo"/>   Хижина на Байкале
                         </h6>
-                        <p>
-                            Хижина на Байкале
-                        </p>
                     </div>
                     {/*products*/}
                     <div className="">

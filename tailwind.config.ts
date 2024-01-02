@@ -7,7 +7,8 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
 
     "./src/**/*.{js,jsx,ts,tsx}",
-    "./node_modules/tw-elements/dist/js/**/*.js"
+    "./node_modules/tw-elements/dist/js/**/*.js",
+    "./node_modules/react-photoswipe-gallery/dist/gallery.js"
   ],
   plugins: [require("tw-elements/dist/plugin.cjs")],
   theme: {

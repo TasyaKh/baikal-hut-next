@@ -5,16 +5,21 @@ import ReactMarkdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
 import NavBack from '../../components/Nav/NavBack';
 import Footer from "../../components/Footer/Footer";
+import Loading from "@/components/other/Loading";
 
 interface RulesProps {
 }
 
 const Page: FC<RulesProps> = () => {
     const [md, setMd] = useState('')
+    const [isLoading, setIsLoading] = useState(false)
 
     useEffect(() => {
+        setIsLoading(true)
         fetch('/md/rules.md').then(response => response.text())
             .then(data => setMd(data))
+            .finally(()=> setIsLoading(false))
+
     }, []);
 
     return (
@@ -26,6 +31,8 @@ const Page: FC<RulesProps> = () => {
                     <ReactMarkdown rehypePlugins={[rehypeRaw]} className={"text-1xl"}>{md}</ReactMarkdown>
                 </div>
             </div>
+            {isLoading ?"true":false}
+            {isLoading ? <Loading/> : null}
             <Footer/>
         </div>
 
