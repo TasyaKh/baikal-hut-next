@@ -1,5 +1,13 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Description 
+
+copy of this site, but older version, changed technologies: 
+https://baikal-hut.ru/ 
+wordpress
+
+![image](https://github.com/TasyaKh/baikal-hut-next/assets/91024491/5253b1b4-f98b-43c6-ad4a-af0fe77cb7d3)
+
 ## Getting Started
 
 First, run the development server:
